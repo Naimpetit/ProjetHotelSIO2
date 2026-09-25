@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e117f08bfd4647ff81ed5023a9d413b4" Name="Diagram1">
+        <EntityTypeShape EntityType="bdhotel_delachapelle_desousamartinsModel.chambre" Width="1.5" PointX="5.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdhotel_delachapelle_desousamartinsModel.client" Width="1.5" PointX="8.125" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdhotel_delachapelle_desousamartinsModel.equipement" Width="1.5" PointX="0.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdhotel_delachapelle_desousamartinsModel.hotel" Width="1.5" PointX="2.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdhotel_delachapelle_desousamartinsModel.photo" Width="1.5" PointX="2.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdhotel_delachapelle_desousamartinsModel.reservation" Width="1.5" PointX="5.625" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="bdhotel_delachapelle_desousamartinsModel.fk_chambre_hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="bdhotel_delachapelle_desousamartinsModel.fk_reservation_client" ManuallyRouted="false" />
+        <AssociationConnector Association="bdhotel_delachapelle_desousamartinsModel.fk_photo_hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="bdhotel_delachapelle_desousamartinsModel.fk_reservation_hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="bdhotel_delachapelle_desousamartinsModel.chambre_reservation" ManuallyRouted="false" />
+        <AssociationConnector Association="bdhotel_delachapelle_desousamartinsModel.equipement_hotel" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
