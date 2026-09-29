@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.FormAcceuil.resources
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.FormMenu.resources
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.Properties.Resources.resources
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.CoreCompileInputs.cache

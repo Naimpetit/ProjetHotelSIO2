@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bdhotel_delachapelle_desousamartinsModelStoreContainer" CdmEntityContainer="Bdd">
+    <EntitySetMapping Name="chambres">
+      <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.chambre">
+        <MappingFragment StoreEntitySet="chambre">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="hotel_id" ColumnName="hotel_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clients">
+      <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.client">
+        <MappingFragment StoreEntitySet="client">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="motpasse" ColumnName="motpasse" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="equipements">
+      <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.equipement">
+        <MappingFragment StoreEntitySet="equipement">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hotels">
+      <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.hotel">
+        <MappingFragment StoreEntitySet="hotel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="rue1" ColumnName="rue1" />
+          <ScalarProperty Name="rue2" ColumnName="rue2" />
+          <ScalarProperty Name="cp" ColumnName="cp" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+          <ScalarProperty Name="descourt" ColumnName="descourt" />
+          <ScalarProperty Name="deslong" ColumnName="deslong" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+          <ScalarProperty Name="motpasse" ColumnName="motpasse" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="photos">
+      <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.photo">
+        <MappingFragment StoreEntitySet="photo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nomfichier" ColumnName="nomfichier" />
+          <ScalarProperty Name="hotel_id" ColumnName="hotel_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="reservations">
+      <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.reservation">
+        <MappingFragment StoreEntitySet="reservation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="datedebut" ColumnName="datedebut" />
+          <ScalarProperty Name="datefin" ColumnName="datefin" />
+          <ScalarProperty Name="hotel_id" ColumnName="hotel_id" />
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="chambre_reservation" TypeName="bdhotel_delachapelle_desousamartinsModel.chambre_reservation" StoreEntitySet="chambre_reservation">
+      <EndProperty Name="chambre">
+        <ScalarProperty Name="id" ColumnName="chambre_id" />
+      </EndProperty>
+      <EndProperty Name="reservation">
+        <ScalarProperty Name="id" ColumnName="reservation_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="equipement_hotel" TypeName="bdhotel_delachapelle_desousamartinsModel.equipement_hotel" StoreEntitySet="equipement_hotel">
+      <EndProperty Name="equipement">
+        <ScalarProperty Name="id" ColumnName="equipement_id" />
+      </EndProperty>
+      <EndProperty Name="hotel">
+        <ScalarProperty Name="id" ColumnName="hotel_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
