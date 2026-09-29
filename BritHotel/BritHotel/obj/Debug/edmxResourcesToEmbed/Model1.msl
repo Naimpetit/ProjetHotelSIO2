@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="bdhotel_delachapelle_desousamartinsModelStoreContainer" CdmEntityContainer="Bdd">
-    <EntitySetMapping Name="chambres">
+    <EntitySetMapping Name="chambre">
       <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.chambre">
         <MappingFragment StoreEntitySet="chambre">
           <ScalarProperty Name="id" ColumnName="id" />
@@ -10,7 +10,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="clients">
+    <EntitySetMapping Name="client">
       <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.client">
         <MappingFragment StoreEntitySet="client">
           <ScalarProperty Name="id" ColumnName="id" />
@@ -20,7 +20,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="equipements">
+    <EntitySetMapping Name="equipement">
       <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.equipement">
         <MappingFragment StoreEntitySet="equipement">
           <ScalarProperty Name="id" ColumnName="id" />
@@ -29,7 +29,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="hotels">
+    <EntitySetMapping Name="hotel">
       <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.hotel">
         <MappingFragment StoreEntitySet="hotel">
           <ScalarProperty Name="id" ColumnName="id" />
@@ -46,7 +46,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="photos">
+    <EntitySetMapping Name="photo">
       <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.photo">
         <MappingFragment StoreEntitySet="photo">
           <ScalarProperty Name="id" ColumnName="id" />
@@ -55,7 +55,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="reservations">
+    <EntitySetMapping Name="reservation">
       <EntityTypeMapping TypeName="bdhotel_delachapelle_desousamartinsModel.reservation">
         <MappingFragment StoreEntitySet="reservation">
           <ScalarProperty Name="id" ColumnName="id" />
@@ -66,20 +66,20 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <AssociationSetMapping Name="chambre_reservation" TypeName="bdhotel_delachapelle_desousamartinsModel.chambre_reservation" StoreEntitySet="chambre_reservation">
-      <EndProperty Name="chambre">
-        <ScalarProperty Name="id" ColumnName="chambre_id" />
-      </EndProperty>
+    <AssociationSetMapping Name="chambre_reservation1" TypeName="bdhotel_delachapelle_desousamartinsModel.chambre_reservation1" StoreEntitySet="chambre_reservation">
       <EndProperty Name="reservation">
         <ScalarProperty Name="id" ColumnName="reservation_id" />
       </EndProperty>
-    </AssociationSetMapping>
-    <AssociationSetMapping Name="equipement_hotel" TypeName="bdhotel_delachapelle_desousamartinsModel.equipement_hotel" StoreEntitySet="equipement_hotel">
-      <EndProperty Name="equipement">
-        <ScalarProperty Name="id" ColumnName="equipement_id" />
+      <EndProperty Name="chambre">
+        <ScalarProperty Name="id" ColumnName="chambre_id" />
       </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="equipement_hotel1" TypeName="bdhotel_delachapelle_desousamartinsModel.equipement_hotel1" StoreEntitySet="equipement_hotel">
       <EndProperty Name="hotel">
         <ScalarProperty Name="id" ColumnName="hotel_id" />
+      </EndProperty>
+      <EndProperty Name="equipement">
+        <ScalarProperty Name="id" ColumnName="equipement_id" />
       </EndProperty>
     </AssociationSetMapping>
   </EntityContainerMapping>

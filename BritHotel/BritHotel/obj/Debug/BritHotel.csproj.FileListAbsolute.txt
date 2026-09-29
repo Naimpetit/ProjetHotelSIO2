@@ -1,6 +1,42 @@
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\BritHotel.exe.config
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\BritHotel.exe
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\BritHotel.pdb
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\bin\Debug\fr\EntityFramework.resources.dll
 C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.AssemblyReference.cache
 C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.FormAcceuil.resources
 C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.FormMenu.resources
 C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.Properties.Resources.resources
 C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.GenerateResource.cache
 C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.Up2Date
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.exe
+C:\Users\Admin\Desktop\APPERO\Projet\BritHotel\BritHotel\obj\Debug\BritHotel.pdb
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.exe.config
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormAcceuil.resources
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormMenu.resources
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.Properties.Resources.resources
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.exe
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.pdb
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\BritHotel.exe.config
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\BritHotel.exe
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\BritHotel.pdb
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\Isopoh.Cryptography.Argon2.dll
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\Isopoh.Cryptography.Blake2b.dll
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\Isopoh.Cryptography.SecureArray.dll
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\Isopoh.Cryptography.Argon2.xml
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\Isopoh.Cryptography.Blake2b.xml
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\Isopoh.Cryptography.SecureArray.xml
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.Up2Date
