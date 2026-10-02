@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bdhotel_delachapelle_desousamartinsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="chambre">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="hotel_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="hotel" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_chambre_hotel" FromRole="chambre" ToRole="hotel" />
+    <NavigationProperty Name="reservations" Relationship="bdhotel_delachapelle_desousamartinsModel.chambre_reservation1" FromRole="chambre" ToRole="reservation" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="motpasse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="reservations" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_reservation_client" FromRole="client" ToRole="reservation" />
+  </EntityType>
+  <EntityType Name="equipement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="libelle" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="logo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="hotels" Relationship="bdhotel_delachapelle_desousamartinsModel.equipement_hotel1" FromRole="equipement" ToRole="hotel" />
+  </EntityType>
+  <EntityType Name="hotel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="nom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="rue1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="rue2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cp" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="telephone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="descourt" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="deslong" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="prix" Type="Double" />
+    <Property Name="motpasse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="chambres" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_chambre_hotel" FromRole="hotel" ToRole="chambre" />
+    <NavigationProperty Name="photos" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_photo_hotel" FromRole="hotel" ToRole="photo" />
+    <NavigationProperty Name="reservations" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_reservation_hotel" FromRole="hotel" ToRole="reservation" />
+    <NavigationProperty Name="equipements" Relationship="bdhotel_delachapelle_desousamartinsModel.equipement_hotel1" FromRole="hotel" ToRole="equipement" />
+  </EntityType>
+  <EntityType Name="photo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="nomfichier" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="hotel_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="hotel" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_photo_hotel" FromRole="photo" ToRole="hotel" />
+  </EntityType>
+  <EntityType Name="reservation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="datedebut" Type="DateTime" Precision="0" />
+    <Property Name="datefin" Type="DateTime" Precision="0" />
+    <Property Name="hotel_id" Type="Int32" Nullable="false" />
+    <Property Name="client_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="client" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_reservation_client" FromRole="reservation" ToRole="client" />
+    <NavigationProperty Name="hotel" Relationship="bdhotel_delachapelle_desousamartinsModel.fk_reservation_hotel" FromRole="reservation" ToRole="hotel" />
+    <NavigationProperty Name="chambres" Relationship="bdhotel_delachapelle_desousamartinsModel.chambre_reservation1" FromRole="reservation" ToRole="chambre" />
+  </EntityType>
+  <EntityContainer Name="Bdd" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="chambre" EntityType="Self.chambre" />
+    <EntitySet Name="client" EntityType="Self.client" />
+    <EntitySet Name="equipement" EntityType="Self.equipement" />
+    <EntitySet Name="hotel" EntityType="Self.hotel" />
+    <EntitySet Name="photo" EntityType="Self.photo" />
+    <EntitySet Name="reservation" EntityType="Self.reservation" />
+    <AssociationSet Name="fk_chambre_hotel" Association="bdhotel_delachapelle_desousamartinsModel.fk_chambre_hotel">
+      <End Role="hotel" EntitySet="hotel" />
+      <End Role="chambre" EntitySet="chambre" />
+    </AssociationSet>
+    <AssociationSet Name="fk_reservation_client" Association="bdhotel_delachapelle_desousamartinsModel.fk_reservation_client">
+      <End Role="client" EntitySet="client" />
+      <End Role="reservation" EntitySet="reservation" />
+    </AssociationSet>
+    <AssociationSet Name="fk_photo_hotel" Association="bdhotel_delachapelle_desousamartinsModel.fk_photo_hotel">
+      <End Role="hotel" EntitySet="hotel" />
+      <End Role="photo" EntitySet="photo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_reservation_hotel" Association="bdhotel_delachapelle_desousamartinsModel.fk_reservation_hotel">
+      <End Role="hotel" EntitySet="hotel" />
+      <End Role="reservation" EntitySet="reservation" />
+    </AssociationSet>
+    <AssociationSet Name="chambre_reservation1" Association="bdhotel_delachapelle_desousamartinsModel.chambre_reservation1">
+      <End Role="chambre" EntitySet="chambre" />
+      <End Role="reservation" EntitySet="reservation" />
+    </AssociationSet>
+    <AssociationSet Name="equipement_hotel1" Association="bdhotel_delachapelle_desousamartinsModel.equipement_hotel1">
+      <End Role="equipement" EntitySet="equipement" />
+      <End Role="hotel" EntitySet="hotel" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="fk_chambre_hotel">
+    <End Type="bdhotel_delachapelle_desousamartinsModel.hotel" Role="hotel" Multiplicity="1" />
+    <End Type="bdhotel_delachapelle_desousamartinsModel.chambre" Role="chambre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hotel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="chambre">
+        <PropertyRef Name="hotel_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_reservation_client">
+    <End Type="bdhotel_delachapelle_desousamartinsModel.client" Role="client" Multiplicity="1" />
+    <End Type="bdhotel_delachapelle_desousamartinsModel.reservation" Role="reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="reservation">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_photo_hotel">
+    <End Type="bdhotel_delachapelle_desousamartinsModel.hotel" Role="hotel" Multiplicity="1" />
+    <End Type="bdhotel_delachapelle_desousamartinsModel.photo" Role="photo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hotel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="photo">
+        <PropertyRef Name="hotel_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_reservation_hotel">
+    <End Type="bdhotel_delachapelle_desousamartinsModel.hotel" Role="hotel" Multiplicity="1" />
+    <End Type="bdhotel_delachapelle_desousamartinsModel.reservation" Role="reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hotel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="reservation">
+        <PropertyRef Name="hotel_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="chambre_reservation1">
+    <End Type="bdhotel_delachapelle_desousamartinsModel.chambre" Role="chambre" Multiplicity="*" />
+    <End Type="bdhotel_delachapelle_desousamartinsModel.reservation" Role="reservation" Multiplicity="*" />
+  </Association>
+  <Association Name="equipement_hotel1">
+    <End Type="bdhotel_delachapelle_desousamartinsModel.equipement" Role="equipement" Multiplicity="*" />
+    <End Type="bdhotel_delachapelle_desousamartinsModel.hotel" Role="hotel" Multiplicity="*" />
+  </Association>
+</Schema>

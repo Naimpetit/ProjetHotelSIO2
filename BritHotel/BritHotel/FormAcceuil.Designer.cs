@@ -44,6 +44,10 @@
             this.btnconnexion.TabIndex = 0;
             this.btnconnexion.Text = "Connexion";
             this.btnconnexion.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+            this.btnconnexion.Click += new System.EventHandler(this.btnconnexion_Click);
+>>>>>>> cc101fb4c1c6e0af83ae991b0689bd292c588055
             // 
             // txtboxmdp
             // 
@@ -81,7 +85,11 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Saisisez votre mot de passe";
             // 
+<<<<<<< HEAD
             // Form1
+=======
+            // FormAcceuil
+>>>>>>> cc101fb4c1c6e0af83ae991b0689bd292c588055
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -93,8 +101,14 @@
             this.Controls.Add(this.txtboxmdp);
             this.Controls.Add(this.btnconnexion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+<<<<<<< HEAD
             this.Name = "Form1";
             this.Text = "Accueil";
+=======
+            this.Name = "FormAcceuil";
+            this.Text = "Accueil";
+            this.Load += new System.EventHandler(this.FormAcceuil_Load);
+>>>>>>> cc101fb4c1c6e0af83ae991b0689bd292c588055
             this.ResumeLayout(false);
             this.PerformLayout();
 
