@@ -53,6 +53,7 @@
             this.txtboxmdp.PasswordChar = '•';
             this.txtboxmdp.Size = new System.Drawing.Size(189, 20);
             this.txtboxmdp.TabIndex = 1;
+            this.txtboxmdp.Text = "password101";
             // 
             // txtboxidentifiant
             // 
@@ -61,6 +62,7 @@
             this.txtboxidentifiant.Name = "txtboxidentifiant";
             this.txtboxidentifiant.Size = new System.Drawing.Size(189, 20);
             this.txtboxidentifiant.TabIndex = 2;
+            this.txtboxidentifiant.Text = "101";
             // 
             // label1
             // 
