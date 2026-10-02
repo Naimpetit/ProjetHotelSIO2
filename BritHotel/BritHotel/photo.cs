@@ -17,5 +17,7 @@ namespace BritHotel
         public int id { get; set; }
         public string nomfichier { get; set; }
         public int hotel_id { get; set; }
+    
+        public virtual hotel hotel { get; set; }
     }
 }

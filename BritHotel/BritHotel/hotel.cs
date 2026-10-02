@@ -14,6 +14,15 @@ namespace BritHotel
     
     public partial class hotel
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public hotel()
+        {
+            this.chambres = new HashSet<chambre>();
+            this.photos = new HashSet<photo>();
+            this.reservations = new HashSet<reservation>();
+            this.equipements = new HashSet<equipement>();
+        }
+    
         public int id { get; set; }
         public string nom { get; set; }
         public string rue1 { get; set; }
@@ -25,5 +34,14 @@ namespace BritHotel
         public string deslong { get; set; }
         public Nullable<double> prix { get; set; }
         public string motpasse { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<chambre> chambres { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<photo> photos { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<reservation> reservations { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<equipement> equipements { get; set; }
     }
 }

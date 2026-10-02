@@ -14,10 +14,21 @@ namespace BritHotel
     
     public partial class reservation
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public reservation()
+        {
+            this.chambres = new HashSet<chambre>();
+        }
+    
         public int id { get; set; }
         public Nullable<System.DateTime> datedebut { get; set; }
         public Nullable<System.DateTime> datefin { get; set; }
         public int hotel_id { get; set; }
         public int client_id { get; set; }
+    
+        public virtual client client { get; set; }
+        public virtual hotel hotel { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<chambre> chambres { get; set; }
     }
 }

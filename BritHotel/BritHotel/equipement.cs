@@ -14,8 +14,17 @@ namespace BritHotel
     
     public partial class equipement
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public equipement()
+        {
+            this.hotels = new HashSet<hotel>();
+        }
+    
         public int id { get; set; }
         public string libelle { get; set; }
         public string logo { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<hotel> hotels { get; set; }
     }
 }

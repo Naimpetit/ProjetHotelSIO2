@@ -25,13 +25,11 @@ namespace BritHotel
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<chambre> chambre { get; set; }
-        public virtual DbSet<chambre_reservation> chambre_reservation { get; set; }
-        public virtual DbSet<client> client { get; set; }
-        public virtual DbSet<equipement> equipement { get; set; }
-        public virtual DbSet<equipement_hotel> equipement_hotel { get; set; }
-        public virtual DbSet<hotel> hotel { get; set; }
-        public virtual DbSet<photo> photo { get; set; }
-        public virtual DbSet<reservation> reservation { get; set; }
+        public virtual DbSet<chambre> chambres { get; set; }
+        public virtual DbSet<client> clients { get; set; }
+        public virtual DbSet<equipement> equipements { get; set; }
+        public virtual DbSet<hotel> hotels { get; set; }
+        public virtual DbSet<photo> photos { get; set; }
+        public virtual DbSet<reservation> reservations { get; set; }
     }
 }
