@@ -17,5 +17,10 @@ namespace BritHotel
             InitializeComponent();
         }
 
+        private void clientsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form formHotel = new FormHotel();
+            formHotel.Show();
+        }
     }
 }

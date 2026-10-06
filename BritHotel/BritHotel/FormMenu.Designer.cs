@@ -59,6 +59,7 @@
             this.clientsToolStripMenuItem1.Name = "clientsToolStripMenuItem1";
             this.clientsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.clientsToolStripMenuItem1.Text = "Hotel";
+            this.clientsToolStripMenuItem1.Click += new System.EventHandler(this.clientsToolStripMenuItem1_Click);
             // 
             // FormMenu
             // 

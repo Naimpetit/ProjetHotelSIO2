@@ -9,6 +9,5 @@ namespace BritHotel
     internal class Varglob
     {
         public static hotel monHotel;
-
     }
 }
