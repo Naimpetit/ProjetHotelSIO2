@@ -40,3 +40,4 @@ C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\fr\Enti
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.csproj.Up2Date
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormHotel.resources
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormReservation.resources
