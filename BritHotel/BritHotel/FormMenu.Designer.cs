@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.clientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.chambreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,8 @@
             // clientsToolStripMenuItem
             // 
             this.clientsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientsToolStripMenuItem1});
+            this.clientsToolStripMenuItem1,
+            this.chambreToolStripMenuItem});
             this.clientsToolStripMenuItem.Name = "clientsToolStripMenuItem";
             this.clientsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.clientsToolStripMenuItem.Text = "Gérer";
@@ -60,6 +62,13 @@
             this.clientsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.clientsToolStripMenuItem1.Text = "Hotel";
             this.clientsToolStripMenuItem1.Click += new System.EventHandler(this.clientsToolStripMenuItem1_Click);
+            // 
+            // chambreToolStripMenuItem
+            // 
+            this.chambreToolStripMenuItem.Name = "chambreToolStripMenuItem";
+            this.chambreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.chambreToolStripMenuItem.Text = "Chambre";
+            this.chambreToolStripMenuItem.Click += new System.EventHandler(this.chambreToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -81,5 +90,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem chambreToolStripMenuItem;
     }
 }
