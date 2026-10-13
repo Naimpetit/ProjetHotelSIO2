@@ -33,6 +33,7 @@
             this.clientsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.réservationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.réservationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.détailClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +54,8 @@
             this.clientsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientsToolStripMenuItem1,
             this.réservationToolStripMenuItem,
-            this.réservationToolStripMenuItem1});
+            this.réservationToolStripMenuItem1,
+            this.détailClientToolStripMenuItem});
             this.clientsToolStripMenuItem.Name = "clientsToolStripMenuItem";
             this.clientsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.clientsToolStripMenuItem.Text = "Gérer";
@@ -78,6 +80,13 @@
             this.réservationToolStripMenuItem1.Text = "Réservation";
             this.réservationToolStripMenuItem1.Click += new System.EventHandler(this.réservationToolStripMenuItem1_Click);
             // 
+            // détailClientToolStripMenuItem
+            // 
+            this.détailClientToolStripMenuItem.Name = "détailClientToolStripMenuItem";
+            this.détailClientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.détailClientToolStripMenuItem.Text = "Fiche client";
+            this.détailClientToolStripMenuItem.Click += new System.EventHandler(this.détailClientToolStripMenuItem_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,5 +109,6 @@
         private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem réservationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem réservationToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem détailClientToolStripMenuItem;
     }
 }

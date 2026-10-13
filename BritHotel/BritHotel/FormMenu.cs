@@ -28,5 +28,11 @@ namespace BritHotel
             Form formReservation = new FormReservation();
             formReservation.Show();
         }
+
+        private void détailClientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form formGestionCli = new FormGestionClient();
+            formGestionCli.Show();
+        }
     }
 }

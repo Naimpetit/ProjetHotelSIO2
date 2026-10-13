@@ -81,6 +81,12 @@
     <Compile Include="FormAcceuil.Designer.cs">
       <DependentUpon>FormAcceuil.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGestionClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionClient.Designer.cs">
+      <DependentUpon>FormGestionClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHotel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="FormAcceuil.resx">
       <DependentUpon>FormAcceuil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGestionClient.resx">
+      <DependentUpon>FormGestionClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHotel.resx">
       <DependentUpon>FormHotel.cs</DependentUpon>
