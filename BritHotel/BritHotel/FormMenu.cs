@@ -23,6 +23,17 @@ namespace BritHotel
             formHotel.Show();
         }
 
+        private void chambreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form formChambre = new FormChambre();
+            formChambre.Show();
+        }
+        private void clientsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form formHotel = new FormHotel();
+            formHotel.Show();
+        }
+
         private void réservationToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Form formReservation = new FormReservation();

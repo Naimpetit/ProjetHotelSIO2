@@ -81,6 +81,12 @@
     <Compile Include="FormAcceuil.Designer.cs">
       <DependentUpon>FormAcceuil.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormChambre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChambre.Designer.cs">
+      <DependentUpon>FormChambre.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormGestionClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     </Compile>
     <EmbeddedResource Include="FormAcceuil.resx">
       <DependentUpon>FormAcceuil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChambre.resx">
+      <DependentUpon>FormChambre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormGestionClient.resx">
       <DependentUpon>FormGestionClient.cs</DependentUpon>
