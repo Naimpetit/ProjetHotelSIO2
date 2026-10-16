@@ -44,3 +44,4 @@ C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHot
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormChambre.resources
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormGestionClient.resources
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormReservation.resources
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormInfosClient.resources

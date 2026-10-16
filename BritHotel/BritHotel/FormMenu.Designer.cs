@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.clientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.chambreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reservationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.infosClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +44,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientsToolStripMenuItem});
+            this.clientsToolStripMenuItem,
+            this.quitterToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -54,8 +58,9 @@
             this.clientsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientsToolStripMenuItem1,
             this.chambreToolStripMenuItem,
-            this.gestionClientToolStripMenuItem,
-            this.reservationToolStripMenuItem});
+            this.reservationToolStripMenuItem,
+            this.infosClientToolStripMenuItem,
+            this.gestionClientToolStripMenuItem});
             this.clientsToolStripMenuItem.Name = "clientsToolStripMenuItem";
             this.clientsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.clientsToolStripMenuItem.Text = "Gérer";
@@ -88,14 +93,29 @@
             this.reservationToolStripMenuItem.Text = "Reservation";
             this.reservationToolStripMenuItem.Click += new System.EventHandler(this.reservationToolStripMenuItem_Click);
             // 
+            // quitterToolStripMenuItem
+            // 
+            this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.quitterToolStripMenuItem.Text = "quitter";
+            this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
+            // 
+            // infosClientToolStripMenuItem
+            // 
+            this.infosClientToolStripMenuItem.Name = "infosClientToolStripMenuItem";
+            this.infosClientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.infosClientToolStripMenuItem.Text = "Infos client";
+            this.infosClientToolStripMenuItem.Click += new System.EventHandler(this.infosClientToolStripMenuItem_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMenu";
-            this.Text = "FormMenu";
+            this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -111,5 +131,7 @@
         private System.Windows.Forms.ToolStripMenuItem chambreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionClientToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reservationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quitterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem infosClientToolStripMenuItem;
     }
 }

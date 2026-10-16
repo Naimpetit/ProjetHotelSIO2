@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHotel));
             this.txtnom = new System.Windows.Forms.Label();
             this.txtemplacement = new System.Windows.Forms.Label();
             this.txttel = new System.Windows.Forms.Label();
@@ -209,6 +210,7 @@
             this.Controls.Add(this.txttel);
             this.Controls.Add(this.txtemplacement);
             this.Controls.Add(this.txtnom);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormHotel";
             this.Text = "Mon hôtel";
             this.Load += new System.EventHandler(this.FormHotel_Load);
