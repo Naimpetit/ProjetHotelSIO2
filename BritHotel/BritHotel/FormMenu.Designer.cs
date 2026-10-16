@@ -32,6 +32,8 @@
             this.clientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.chambreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +53,9 @@
             // 
             this.clientsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientsToolStripMenuItem1,
-            this.chambreToolStripMenuItem});
+            this.chambreToolStripMenuItem,
+            this.gestionClientToolStripMenuItem,
+            this.reservationToolStripMenuItem});
             this.clientsToolStripMenuItem.Name = "clientsToolStripMenuItem";
             this.clientsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.clientsToolStripMenuItem.Text = "Gérer";
@@ -69,6 +73,20 @@
             this.chambreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.chambreToolStripMenuItem.Text = "Chambre";
             this.chambreToolStripMenuItem.Click += new System.EventHandler(this.chambreToolStripMenuItem_Click);
+            // 
+            // gestionClientToolStripMenuItem
+            // 
+            this.gestionClientToolStripMenuItem.Name = "gestionClientToolStripMenuItem";
+            this.gestionClientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestionClientToolStripMenuItem.Text = "Gestion client";
+            this.gestionClientToolStripMenuItem.Click += new System.EventHandler(this.gestionClientToolStripMenuItem_Click);
+            // 
+            // reservationToolStripMenuItem
+            // 
+            this.reservationToolStripMenuItem.Name = "reservationToolStripMenuItem";
+            this.reservationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reservationToolStripMenuItem.Text = "Reservation";
+            this.reservationToolStripMenuItem.Click += new System.EventHandler(this.reservationToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
@@ -91,5 +109,7 @@
         private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem chambreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionClientToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reservationToolStripMenuItem;
     }
 }

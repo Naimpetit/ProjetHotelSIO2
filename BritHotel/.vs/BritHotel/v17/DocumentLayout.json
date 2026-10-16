@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|c:\\users\\admin\\desktop\\appero\\projet hotel\\brithotel\\brithotel\\formchambre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\formchambre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\brithotel\\formchambre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\formchambre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\brithotel\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\brithotel\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\brithotel\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|c:\\users\\admin\\desktop\\appero\\projet hotel\\brithotel\\brithotel\\formgestionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\formgestionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|c:\\users\\admin\\desktop\\appero\\projet hotel\\brithotel\\brithotel\\formgestionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\formgestionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\brithotel\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A49F5138-FD52-4CCE-A405-D19068C7CE94}|BritHotel\\BritHotel.csproj|solutionrelative:brithotel\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\Model1.edmx",
               "RelativeDocumentMoniker": "BritHotel\\Model1.edmx",
@@ -42,7 +42,8 @@
               "RelativeToolTip": "BritHotel\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2026-09-22T08:51:33.367Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Bookmark",
@@ -70,50 +71,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "FormGestionClient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormGestionClient.cs",
+              "RelativeDocumentMoniker": "BritHotel\\FormGestionClient.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormGestionClient.cs [Design]",
+              "RelativeToolTip": "BritHotel\\FormGestionClient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:11:07.89Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormGestionClient.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormGestionClient.cs",
+              "RelativeDocumentMoniker": "BritHotel\\FormGestionClient.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormGestionClient.cs",
+              "RelativeToolTip": "BritHotel\\FormGestionClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:10:49.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FormMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormMenu.cs",
               "RelativeDocumentMoniker": "BritHotel\\FormMenu.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormMenu.cs [Design]",
               "RelativeToolTip": "BritHotel\\FormMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T09:02:21.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormMenu.cs",
-              "RelativeDocumentMoniker": "BritHotel\\FormMenu.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormMenu.cs",
-              "RelativeToolTip": "BritHotel\\FormMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T09:02:19.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormChambre.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormChambre.cs",
-              "RelativeDocumentMoniker": "BritHotel\\FormChambre.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormChambre.cs [Design]",
-              "RelativeToolTip": "BritHotel\\FormChambre.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T08:35:47.951Z",
+              "WhenOpened": "2026-10-09T09:02:21.295Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormChambre.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormChambre.cs",
-              "RelativeDocumentMoniker": "BritHotel\\FormChambre.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormChambre.cs",
-              "RelativeToolTip": "BritHotel\\FormChambre.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAzwFAAAAAFAAAAAAAAAA==",
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormMenu.cs",
+              "RelativeDocumentMoniker": "BritHotel\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\APPERO\\Projet Hotel\\BritHotel\\BritHotel\\FormMenu.cs",
+              "RelativeToolTip": "BritHotel\\FormMenu.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T08:35:41.425Z",
+              "WhenOpened": "2026-10-09T09:02:19.35Z",
               "EditorCaption": ""
             }
           ]

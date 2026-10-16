@@ -42,3 +42,5 @@ C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHot
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormHotel.resources
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.exe.config
 C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormChambre.resources
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormGestionClient.resources
+C:\Users\Admin\Desktop\APPERO\Projet Hotel\BritHotel\BritHotel\obj\Debug\BritHotel.FormReservation.resources
